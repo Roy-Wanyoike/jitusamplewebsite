@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+footer {
+  background-color: black;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+}
+
+div > h3 {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.footer-parag {
+  margin-top: 1em;
+}
+
+.footer-parag p {
+  padding-top: .5em;
+}

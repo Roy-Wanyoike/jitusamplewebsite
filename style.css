@@ -46,7 +46,28 @@
   padding-top: .5em;
 }
 
-footer, main{
+footer {
+  background-color: black;
+  color: #fff;
+  display: flex;
+  justify-content:space-around;
+  padding: 2em;
+}
+
+div > h3 {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.footer-parag {
+  margin-top: 1em;
+}
+
+.footer-parag p {
+  padding-top: .5em;
+}
+
+footer, main, #footer-2{
  /* margin-left: 220px; */
  transition: margin-left .5s;
  padding: 20px;
